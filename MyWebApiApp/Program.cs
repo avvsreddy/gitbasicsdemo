@@ -35,7 +35,7 @@ app.MapGet("/weatherforecast", () =>
 
 app.MapGet("/health", () =>
 {
-    return Results.Ok("Healthy");
+    return Results.Ok("I am Healthy");
 });
 
 app.Run();
