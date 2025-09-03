@@ -38,6 +38,7 @@ app.MapGet("/health", () =>
     return Results.Ok("I am Healthy...");
 });
 
+app.Wrong();
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
